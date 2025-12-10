@@ -13,9 +13,7 @@
       "Fast-Paced"
     ],
     "modes": [
-      "Deathmatch",
-      "Capture the Flag",
-      "Conquest"
+      "Multiplayer"
     ],
     "team_size": "Solo Developer",
     "development_time": "???",
