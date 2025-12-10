@@ -35,7 +35,6 @@ async function loadPresskit() {
     ['Release', g.release_date || 'TBA'],
     ['Modes', (g.modes || []).join(', ')],
     ['Team Size', g.team_size],
-    ['Development Time', g.development_time],
     ['Game Engine', g.game_engine],
     ['Status', g.development_status],
   ];
