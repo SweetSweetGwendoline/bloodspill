@@ -13,12 +13,13 @@
       "Fast-Paced"
     ],
     "modes": [
-      "Singleplayer",
-      "Multiplayer"
+      "Deathmatch",
+      "Capture the Flag",
+      "Conquest"
     ],
     "team_size": "Solo Developer",
-    "development_time": "??",
-    "game_engine": "Unreal Engine 5 (Version 5.3)",
+    "development_time": "???",
+    "game_engine": "Unreal Engine 5.3",
     "release_date": "Q1 2026",
     "development_status": "In development",
     "platforms": [
