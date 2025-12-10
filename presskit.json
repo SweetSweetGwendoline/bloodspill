@@ -2,7 +2,7 @@
   "game": {
     "game_url": "https://store.steampowered.com/app/3737680/Bloodspill/",
     "widgetreftourl": "<iframe src=\"https://store.steampowered.com/widget/3737680/\" frameborder=\"0\" width=\"100%\" height=\"190\"></iframe>",
-    "presskiturl": "https://drive.google.com/file/d/1VC9IAR56hPc_j-18iUrD03mbi05sLOAO/view",
+    "presskiturl": "https://github.com/YourName/Bloodspill/tree/main/assets/presskit.zip",
     "title": "Bloodspill",
     "tagline": "Short Description",
     "short_description": "Bloodspill is a fast-paced, pvp retro fps with one hit combat, featuring classic gamemodes like deathmatch, capture the flag and conquest!",
