@@ -25,17 +25,6 @@ async function loadPresskit() {
         el.setAttribute("href", gameUrl || '');
     });
 
-    // Trailer Section
-    const trailerSection = document.getElementById('trailer');
-    const trailerIframe = document.getElementById('trailer-iframe');
-    
-    if (g.trailer) {
-        trailerSection.style.display = 'block';
-        trailerIframe.src = g.trailer;
-    } else {
-        trailerSection.style.display = 'none';
-    }
-
     // Cover Image
     document.getElementById('cover').src = vis.cover || '';
 
@@ -49,6 +38,17 @@ async function loadPresskit() {
 
     // Steam Widget
     document.getElementById('widgetreftourl').innerHTML = g.widgetreftourl || '';
+
+    const trailerContainer = document.getElementById('trailer-container');
+    const trailerIframe = document.getElementById('trailer-iframe');
+    
+    // Check if trailer URL exists in JSON
+    if (g.trailer && trailerContainer) {
+        trailerContainer.style.display = 'block';
+        trailerIframe.src = g.trailer;
+    } else if (trailerContainer) {
+        trailerContainer.style.display = 'none';
+    }
 
     // Facts Grid
     const facts = [
